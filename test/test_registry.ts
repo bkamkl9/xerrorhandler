@@ -1,4 +1,4 @@
-import { ErrorRegistry, ErrorRegistryEntry } from "../mod.ts";
+import { ErrorRegistry, type ErrorRegistryEntry } from "../mod.ts";
 import { assert } from "@std/assert";
 
 const moduleScopeRegistry = new ErrorRegistry();
